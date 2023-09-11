@@ -231,10 +231,7 @@ button {
 /*Our team section*/
 .our-team-section {
   background-color: var(--cloud);
-}
-
-.our-bg {
-  background-color: var(--white);
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -244,6 +241,28 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list-item {
+  background-color: var(--white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.our-team-item-description {
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .our-team-staff {
@@ -252,6 +271,9 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 /*END Our team section*/
