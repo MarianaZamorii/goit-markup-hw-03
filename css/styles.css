@@ -59,7 +59,7 @@ button {
   border-bottom: 1px solid var(--corn-flower);
 }
 
-.header-container {
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
