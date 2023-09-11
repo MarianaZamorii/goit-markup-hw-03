@@ -73,9 +73,6 @@ button {
 .navigation-container {
   display: flex;
   align-items: center;
-}
-
-.navigation-item {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -84,6 +81,8 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
