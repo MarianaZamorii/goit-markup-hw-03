@@ -60,24 +60,27 @@ button {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header-container {
+  display: flex;
   justify-content: space-between;
 }
 
 .navigation-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigation-list {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
